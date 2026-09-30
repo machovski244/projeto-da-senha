@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversor Digital de Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Inversor Digital de Senha</h2>
+        <p>Insira uma senha numérica para inverter cada dígito (subtraindo de 9):</p>
+        
+        <input type="text" id="senhaInput" placeholder="Ex: 4567" maxlength="10">
+        <button onclick="gerarNovaSenha()">Inverter Senha</button>
+
+        <div class="resultado" id="resultadoArea">
+            <span>Nova Senha:</span>
+            <strong id="novaSenha">-</strong>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
